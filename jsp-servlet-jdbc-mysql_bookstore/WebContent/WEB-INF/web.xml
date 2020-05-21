@@ -19,7 +19,7 @@
  
     <servlet>
         <servlet-name>ControllerServlet</servlet-name>
-        <servlet-class>com.iamjunaydgul.ControllerServlet</servlet-class>
+        <servlet-class>ControllerServlet</servlet-class>
     </servlet>
  
     <servlet-mapping>

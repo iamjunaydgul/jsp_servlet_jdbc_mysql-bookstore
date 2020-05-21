@@ -1,9 +1,10 @@
 package com.iamjunaydgul;
  
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.sql.SQLException;
 import java.util.List;
- 
+
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -35,7 +36,9 @@ public class ControllerServlet extends HttpServlet {
         try {
             switch (action) {
             case "/new":
-                showNewForm(request, response);
+				/* showNewForm(request, response); */
+            	PrintWriter out= response.getWriter();
+            	out.println("in serlvet");
                 break;
             case "/insert":
                 insertBook(request, response);

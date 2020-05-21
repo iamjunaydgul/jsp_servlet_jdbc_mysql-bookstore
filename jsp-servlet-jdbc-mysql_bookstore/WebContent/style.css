@@ -1,0 +1,19 @@
+body{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	background-color: cadetblue;	
+}
+a{
+	font-weight: lighter;
+	text-decoration: none;
+	color: burlywood;
+}
+a:hover{
+	color: lightblue;
+}
+center{
+	max-width: 450px;
+	margin: auto;
+	color: burlywood;
+	font-weight: bolder;
+	background: lightslategray;
+}
